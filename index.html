@@ -1,84 +1,119 @@
 <html>
-       
-    <head> 
-            <title> Andrew Rudolph - Hompage</title>
-            <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-            <style>
-                body {
-                  background-color: #90fbd6;
 
-                }
-                .name {
-                    text-align: center;
-                }
-                .name h1{
-                
-                    padding: 0;
-                    margin: 0;
-                    
-                    font-family: 'Source Sans Pro', sans-serif;
-                    font-weight: 900;
-                    color: #030D53;
-                    font-size: 4.35em;
-                    letter-spacing: -0.035em;
-                    
+    <head>
+        <!-- content inside tab-->
+        <title>Andrew Rudolph - Homepage</title>
 
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
 
-                }
-                .name p{ 
-                    margin: 0;
-                    padding: 0;
-                    font-family: 'Source Sans Pro', sans-serif;                
-                    font-size: 15pt;                 
-                    font-weight: 100 !important;             
-                    letter-spacing: -0.025em;                 
-                    line-height: 1.75em;
-                    color: #fff;
-                    padding-bottom: 15px;
-                    
-                }                 
-                                      
-                .links{
-                    width: 20%;
-                    display: flex;
-                    flex-direction: row; 
-                    justify-content: space-between;
-                }
-                    
-                .links-wrapper{
-                    display: flex;
-                    flex-direction: row; 
-                    flex:1;
-                    justify-content: center;
+        <!-- style html -->
+        <style>
+            body {
+                background-color: #72F7C9;
+            }
 
-                }
-                .content{
-                    padding: 0;
-                    margin: 0;
-                    padding-top: 18%;
-                }
+            .name {
+                text-align: center;
+            }
 
-            </style>
+            .name h1 {
+                margin: 0;
+                padding: 0;
+
+                color: #030D53;                
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 4.35em;
+                font-weight: 900 !important;
+                letter-spacing: -0.035em;
+                line-height: 1.75em;
+            }
+            
+            .name p {
+                margin: 0;
+                padding: 0;
+
+                color: #333;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 15pt;
+                font-weight: 100 !important;
+                letter-spacing: -0.025em;
+                padding-bottom: 15px;
+
+            }
+
+            .links {
+                padding-top: 20px;
+                width: 25%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .links-wrapper {
+                display: flex;
+                flex-direction: row;
+                flex: 1;
+                justify-content: center; 
+            }
+
+            .content {
+                padding-top: 18%;
+            }
+
+            .button {
+                border-width: 1px;
+                border-style: solid;
+                border-color: #fff;
+                border-radius: 10px;
+                font-family: 'Open Sans', sans-serif;
+                background-color: rgba(255 ,255 ,255, 0.2);
+                text-align: center;
+                padding: 5px 8px 5px 8px;
+            }
+
+            .button a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+        </style>
     </head>
 
     <body>
+        
         <div class="content">
-            <div class= "name">
-                <h1> AJ Rudolph </h1>
+            
+            <!-- NAME -->
+            <div class="name">
+                <h1>Hi, I'm Aj Rudolph 👋</h1>
                 <p> Developer • Student • Community Builder </p>
             </div>
-            
+
+            <!-- LINKS -->
             <div class="links-wrapper">
-               <div class="links">
-            
-                     <a href="https://www.linkedin.com/in/aj-rudolph" > Linkedin   </a> 
-                     <a href="https://github.com/AJ-Rudolph" > Github     </a> 
-                     <a href="#" > Resume     </a>  
-                     <a href="mailto:andrew.rudolph01@gmail.com?subject= Hello" > Email      </a> 
+                <div class="links">
+
+                    <div class="button">
+                        <a href="https://linkedin.com/in/Aj-rudolph"> LinkedIn </a>
+                    </div>
+
+                    <div class="button">
+                        <a href="https://github.com/AJ-Rudolph"> Github </a>
+                    </div>
+
+                    <div class="button">
+                        <a href="#"> Resume </a>
+                    </div>
+
+                    <div class="button">
+                        <a href="mailto:andrew.rudolph01@gmail.com?Subject=Hello Andrew"> Email  </a>
+                    </div>
+
                 </div>
             </div>
 
         </div>
-    </body>
-</html>
 
+    </body>
+
+</html>
